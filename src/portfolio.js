@@ -51,99 +51,117 @@ const skillsSection = {
   title: "What I do",
   subTitle: "DevOps Engineer who automate the stuff..",
   skills: [
-    emoji("⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"),
-    emoji("⚙️ Designing and implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines for efficient software delivery and deployment automation"),
-    emoji("⚙️ Orchestrating containerized applications at scale using Kubernetes for efficient deployment, scaling, and management of containerized workloads"),
-    emoji("⚙️ Implementing monitoring and logging solutions for cloud-native applications using tools like Prometheus, Grafana, ELK Stack"),
-    emoji("⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"),
-    emoji("⚙️ Automating repetitive tasks and workflows using scripting languages like Bash, Python, or PowerShell"),
-    emoji("⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"),
-    emoji("⚙️ Designing and implementing secure, scalable, and highly available cloud architectures on platforms like AWS, Azure, or Google Cloud Platform (GCP)"),
-    emoji("⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"),
-    emoji("⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources")
-],
-
+    emoji(
+      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
+    ),
+    emoji(
+      "⚙️ Designing and implementing Continuous Integration and Continuous Deployment (CI/CD) pipelines for efficient software delivery and deployment automation"
+    ),
+    emoji(
+      "⚙️ Orchestrating containerized applications at scale using Kubernetes for efficient deployment, scaling, and management of containerized workloads"
+    ),
+    emoji(
+      "⚙️ Implementing monitoring and logging solutions for cloud-native applications using tools like Prometheus, Grafana, ELK Stack"
+    ),
+    emoji(
+      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
+    ),
+    emoji(
+      "⚙️ Automating repetitive tasks and workflows using scripting languages like Bash, Python, or PowerShell"
+    ),
+    emoji(
+      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
+    ),
+    emoji(
+      "⚙️ Designing and implementing secure, scalable, and highly available cloud architectures on platforms like AWS, Azure, or Google Cloud Platform (GCP)"
+    ),
+    emoji(
+      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
+    ),
+    emoji(
+      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
+    )
+  ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-softwareSkills: [
-  {
-    skillName: "sass",
-    fontAwesomeClassname: "fab fa-sass"
-  },
-  {
-    skillName: "nodejs",
-    fontAwesomeClassname: "fab fa-node"
-  },
-  {
-    skillName: "npm",
-    fontAwesomeClassname: "fab fa-npm"
-  },
-  {
-    skillName: "sql-database",
-    fontAwesomeClassname: "fas fa-database"
-  },
-  {
-    skillName: "aws",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "firebase",
-    fontAwesomeClassname: "fas fa-fire"
-  },
-  {
-    skillName: "python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "docker",
-    fontAwesomeClassname: "fab fa-docker"
-  },
-  {
-    skillName: "kubernetes",
-    fontAwesomeClassname: "fa-solid fa-sitemap"
-  },
-  {
-    skillName: "terraform",
-    fontAwesomeClassname: "fa-solid fa-cloud"
-  },
-  {
-    skillName: "cloudformation",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "jenkins",
-    fontAwesomeClassname: "fab fa-jenkins"
-  },
-  {
-    skillName: "github",
-    fontAwesomeClassname: "fab fa-github"
-  },
-  {
-    skillName: "github actions",
-    fontAwesomeClassname: "fas fa-code-branch"
-  },
-  {
-    skillName: "circle Ci",
-    fontAwesomeClassname: "fas fa-circle"
-  },
-  {
-    skillName: "argocd",
-    fontAwesomeClassname: "fas fa-rocket"
-  },
-  {
-    skillName: "aws sam",
-    fontAwesomeClassname: "fab fa-aws"
-  },
-  {
-    skillName: "aws lambda",
-    fontAwesomeClassname: "fab fa-aws"
-  }
-],
-display: true // Set false to hide this section, defaults to true
+  softwareSkills: [
+    {
+      skillName: "sass",
+      fontAwesomeClassname: "fab fa-sass"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fa-solid fa-sitemap"
+    },
+    {
+      skillName: "terraform",
+      fontAwesomeClassname: "fa-solid fa-cloud"
+    },
+    {
+      skillName: "cloudformation",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "github actions",
+      fontAwesomeClassname: "fas fa-code-branch"
+    },
+    {
+      skillName: "circle Ci",
+      fontAwesomeClassname: "fas fa-circle"
+    },
+    {
+      skillName: "argocd",
+      fontAwesomeClassname: "fas fa-rocket"
+    },
+    {
+      skillName: "aws sam",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "aws lambda",
+      fontAwesomeClassname: "fab fa-aws"
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
-
 
 // Education Section
 
@@ -154,13 +172,13 @@ const educationInfo = {
       schoolName: "Bahria University",
       logo: require("./assets/images/bahrialogo.png"),
       subHeader: "Bachelors of Science in Computer Science",
-      duration: "September 2018 - July 2022",
+      duration: "September 2018 - July 2022"
     },
     {
       schoolName: "Fauji Foundation College for Boys",
       logo: require("./assets/images/ffcb.png"),
       subHeader: "HSSC in ICS",
-      duration: "September 2016 - April 2018",
+      duration: "September 2016 - April 2018"
     }
   ]
 };
@@ -202,9 +220,9 @@ const workExperiences = {
       date: "Sept 2022 – Dec 2023",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Use of Groovy (Declarative and Scripted methods) with Jenkins and Github Actions" ,
-        "for extensive CI/CD pipeline architecture and implementation for client apps" ,
-        "Provisioning and control of infrastructure using AWS cloud formation (such as simple, nested, and cross stacks), as well as bespoke Terraform modules" ,
+        "Use of Groovy (Declarative and Scripted methods) with Jenkins and Github Actions",
+        "for extensive CI/CD pipeline architecture and implementation for client apps",
+        "Provisioning and control of infrastructure using AWS cloud formation (such as simple, nested, and cross stacks), as well as bespoke Terraform modules",
         "Elastic Container Service (ECS) on AWS has been Dockerized and used to deploy micro services",
         "Elastic Kubernetes Service (EKS) on AWS for the deployment of microservices",
         "Helm chart design for EKS-based apps",
@@ -227,7 +245,6 @@ const workExperiences = {
         "Dockerizing the application code and deploying those applications on container orchestration tools such as ECS and EKS.",
         "Deploying the complex infrastructure through Terraform, making the code dynamic enough so that it can be used for different use cases.",
         "Attending meetings with the clients, and providing them with the solutions for their problem statement."
-
       ]
     }
   ]
