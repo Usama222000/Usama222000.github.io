@@ -290,7 +290,7 @@ const bigProjects = {
     {
       // image: require("./assets/images/digiebot.png"),
       projectName: "Handling Bounced Email in AWS Simple Emailing Service",
-      projectDesc: "Created Infrastructure via Terraform to handle the bounced email when the ratio exceeds 5% . Used AWS microservices like SNS (Simple notification service) , AWS Lambda function to notify the user on slack by sending the bounces email id and also store the ID with the message in the DynamoDB",
+      projectDesc: "Created Infrastructure via Terraform to handle the bounced emails when the ratio exceeds 5% . Used AWS microservices like SNS (Simple notification service) , AWS Lambda function to notify the user on slack by sending the bounced email's id and also store the ID's & email in the DynamoDB",
       footerLink: [
         {
           name: "Source Code",
