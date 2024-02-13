@@ -267,7 +267,7 @@ const bigProjects = {
     {
       image: require("./assets/images/elmonx.png"),
       projectName: "Elmonx",
-      projectDesc: "Created infrastructure for this application , created CI/CD for autmatic deployments on the server for dev and prod stage ",
+      projectDesc: "Created infrastructure for this application , created CI/CD for automatic deployments on the server for dev and prod stage ",
       footerLink: [
         {
           name: "Visit Website",
@@ -279,11 +279,22 @@ const bigProjects = {
     {
       image: require("./assets/images/digiebot.png"),
       projectName: "Digiebot",
-      projectDesc: "Created optimized infrastructure for this application to reduce the cloud cost , enable proper security practices in infrastructure , created CI/CD for autmatic deployments on the server for dev and prod stage",
+      projectDesc: "Created optimized infrastructure for this application to reduce the cloud cost , enable proper security practices in infrastructure , created CI/CD for automatic deployments on the server for dev and prod stage",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://trading.digiebot.com/login?returnUrl=/"
+        }
+      ]
+    },
+    {
+      // image: require("./assets/images/digiebot.png"),
+      projectName: "Handling Bounced Email in AWS Simple Emailing Service",
+      projectDesc: "Created Infrastructure via Terraform to handle the bounced email when the ratio exceeds 5% . Used AWS microservices like SNS (Simple notification service) , AWS Lambda function to notify the user on slack by sending the bounces email id and also store the ID with the message in the DynamoDB",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/Usama222000/SES-bounce-email-handling-via-terraform.git"
         }
       ]
     }
