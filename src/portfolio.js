@@ -265,7 +265,7 @@ const bigProjects = {
   subtitle: "SOME OF MY PROJECTS",
   projects: [
     {
-      image: require("./assets/images/elmonx.webp"),
+      image: require("./assets/images/elmonx.png"),
       projectName: "Elmonx",
       projectDesc: "Created infrastructure for this application , created CI/CD for autmatic deployments on the server for dev and prod stage ",
       footerLink: [
@@ -277,7 +277,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/digiebot.webp"),
+      image: require("./assets/images/digiebot.png"),
       projectName: "Digiebot",
       projectDesc: "Created optimized infrastructure for this application to reduce the cloud cost , enable proper security practices in infrastructure , created CI/CD for autmatic deployments on the server for dev and prod stage",
       footerLink: [
