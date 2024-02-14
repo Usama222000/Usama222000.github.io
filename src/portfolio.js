@@ -64,23 +64,12 @@ const skillsSection = {
       "⚙️ Implementing monitoring and logging solutions for cloud-native applications using tools like Prometheus, Grafana, ELK Stack"
     ),
     emoji(
-      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
-    ),
-    emoji(
       "⚙️ Automating repetitive tasks and workflows using scripting languages like Bash, Python, or PowerShell"
     ),
     emoji(
-      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
-    ),
-    emoji(
       "⚙️ Designing and implementing secure, scalable, and highly available cloud architectures on platforms like AWS, Azure, or Google Cloud Platform (GCP)"
-    ),
-    emoji(
-      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
-    ),
-    emoji(
-      "⚙️ Implementing Infrastructure as Code (IaC) using Terraform for automated provisioning and management of cloud resources"
     )
+
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
