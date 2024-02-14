@@ -1,0 +1,94 @@
+name: Build- vtd
+
+on:
+  push:
+    branches:
+      - cem-vtd-app
+      # - main
+      # - develop
+env:
+  solution: "**/*.sln"
+  buildPlatform: 'Any CPU'
+  buildConfiguration: "Release"
+  buildMajorVersion: "1"
+  buildMinorVersion: "3"
+  buildVersionSpecifier: "0"
+  releaseCounter: "1"
+  buildRevision: "3.0"
+  productNameExtension: " 1.3R1"
+  signSha1Thumbprint: "3FFF8EE3D54FE19C93F3B4193C1B0BF63CAD5329"
+  signTimeStampServer: "http://timestamp.digicert.com/"
+  signToolArguments: "/tr http://timestamp.digicert.com/ /td sha256 /fd sha256 /sha1 3FFF8EE3D54FE19C93F3B4193C1B0BF63CAD5329"
+jobs:
+  build:
+    runs-on: windows-latest # You can adjust the runner as per your requirements
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install NuGet
+        uses: nuget/setup-nuget@v1
+
+      - name: Testing runner
+        run: |
+          docker ps
+          pwd
+          nuget --version
+
+      - name: NuGet Restore
+        run: nuget restore ${{ env.solution }}
+
+      - name: Setup-dotnet
+        uses: actions/setup-dotnet@v2
+        with:
+          dotnet-version: "3.1.x" # Adjust version as needed
+        
+      - name: Build
+        run: |
+          dotnet build ${{ env.solution }} --configuration ${{ env.buildConfiguration }} --output ${{ github.workspace }}\bin /p:MajorMinor=${{ env.buildMajorVersion }}.${{ env.buildMinorVersion }} /p:BuildID=${{ env.buildVersionSpecifier }} /p:Revision=${{ env.buildRevision }} /p:Version=${{ env.buildMajorVersion }}.${{ env.buildMinorVersion }}.${{ env.buildVersionSpecifier }}.${{ env.buildRevision }} /p:PN_BuildType="${{ env.productNameExtension }}" /p:SignArgs="${{ env.signToolArguments }}" /p:SignSha1="${{ env.signSha1Thumbprint }}" /p:SignTimeServer="${{ env.signTimeStampServer }}" /p:DeployOnBuild=true /p:SkipInvalidConfigurations=true /p:RunWixToolsOutOfProc=true
+
+      - name: Unit tests
+        run: dotnet test ${{ env.solution }} --configuration ${{ env.buildConfiguration }}
+
+      - name: Copy Setup file
+        run: |
+          mkdir -p ${{ github.workspace }}/Setup
+          cp ${{ github.workspace }}/bin/RTM.Setup.exe ${{ github.workspace }}/Setup
+
+      - name: Copy Binaries
+        run: |
+          mkdir -p ${{ github.workspace }}/Binaries
+          cp -r ${{ github.workspace }}/bin/* ${{ github.workspace }}/Binaries
+          rm -rf ${{ github.workspace }}/Binaries/RTM.Setup.exe
+
+      - name: Copy Properties
+        run: |
+          mkdir -p ${{ github.workspace }}/Properties
+          cp -r ${{ github.workspace }}/vtd-webapplication/src/Server/RTM.Server/Properties/* ${{ github.workspace }}/Properties
+
+      - name: Copy Documentation files
+        run: |
+          mkdir -p ${{ github.workspace }}/Doc
+          cp -r ${{ github.workspace }}/vtd-webapplication/src/Installer/RTM.msi/Doc/* ${{ github.workspace }}/Doc
+
+      - name: Copy HTML files
+        run: |
+          mkdir -p ${{ github.workspace }}/Html
+          cp -r ${{ github.workspace }}/vtd-webapplication/src/Installer/RTM.msi/Html/* ${{ github.workspace }}/Html
+
+      - name: Copy Script files
+        run: |
+          mkdir -p ${{ github.workspace }}/Script
+          cp -r ${{ github.workspace }}/vtd-webapplication/src/Installer/RTM.msi/Script/* ${{ github.workspace }}/Script
+
+      - name: Publish Artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ github.run_number }}
+          path: ${{ github.workspace }}
+
+      - name: Cleanup
+        run: |
+          rmdir /s /q $(Pipeline.Workspace)
+        working-directory: $(Agent.WorkFolder)
