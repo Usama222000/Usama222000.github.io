@@ -286,7 +286,7 @@ const bigProjects = {
       ]
     },
     {
-      // image: require("./assets/images/digiebot.png"),
+      image: require("./assets/images/terraform.png"),
       projectName: "Handling Bounced Email in AWS Simple Emailing Service",
       projectDesc: "Created Infrastructure via Terraform to handle the bounced emails when the ratio exceeds 5% . Used AWS microservices like SNS (Simple notification service) , AWS Lambda function to notify the user on slack by sending the bounced email's id and also store the ID's & email in the DynamoDB",
       footerLink: [
@@ -297,7 +297,7 @@ const bigProjects = {
       ]
     },
     {
-      // image: require("./assets/images/digiebot.png"),
+      image: require("./assets/images/terraform.png"),
       projectName: "Atlantis Terraform Deployment on AWS ECS",
       projectDesc: "Atlantis is a terraform pull request automation tool , So Deployed the Atlantis server on AWS Elastic Container Service via terraform , using Compliance based terraform modules and few custom modules . Creating Application load balancer and attaching it to the Atlantis server , Creating sub domain in Route53 and routing it to the Atlantis server via ALB",
       footerLink: [
