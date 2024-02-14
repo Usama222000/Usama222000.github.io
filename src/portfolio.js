@@ -38,7 +38,7 @@ const socialMediaLinks = {
   gmail: "usamamukhtar0@gmail.com",
   instagram: "https://www.instagram.com/usamaahmed_2/?next=%2F",
   // gitlab: "https://gitlab.com/saadpasta",
-  // facebook: "https://www.facebook.com/saad.pasta7",
+  facebook: "https://www.facebook.com/people/Usama-Ahmed/pfbid02xbdA7KzBTJzQasYGc35gT99zTLmpCe3dABMVhJn9J9BRhcduEB8xRJJvy3SPivPrl/?mibextid=hu50Ix",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
