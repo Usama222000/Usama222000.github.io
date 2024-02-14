@@ -295,6 +295,17 @@ const bigProjects = {
           url: "https://github.com/Usama222000/SES-bounce-email-handling-via-terraform.git"
         }
       ]
+    },
+    {
+      // image: require("./assets/images/digiebot.png"),
+      projectName: "Atlantis Terraform Deployment on AWS ECS",
+      projectDesc: "Atlantis is a terraform pull request automation tool , So Deployed the Atlantis server on AWS Elastic Container Service via terraform , using Compliance based terraform modules and few custom modules . Creating Application load balancer and attaching it to the Atlantis server , Creating sub domain in Route53 and routing it to the Atlantis server via ALB",
+      footerLink: [
+        {
+          name: "Source Code",
+          url: "https://github.com/Usama222000/Atantis-server-on-ECS-via-terraform.git"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
