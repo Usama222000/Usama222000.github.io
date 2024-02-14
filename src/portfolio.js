@@ -178,7 +178,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Automation", //Insert stack or technology you have experience in
+      Stack: "CI/CD", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
@@ -191,6 +191,14 @@ const techStack = {
     },
     {
       Stack: "AWS",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Container Orchestation",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Security",
       progressPercentage: "90%"
     }
   ],
