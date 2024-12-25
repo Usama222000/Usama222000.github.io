@@ -214,7 +214,7 @@ const workExperiences = {
     {
       role: "Junior Devops Engineer",
       company: "Terabit IT",
-      companylogo: require("./assets/images/eurus.png"),
+      companylogo: require("./assets/images/terabit.png"),
       date: "Nov 2020 – AUG 2022",
       // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
