@@ -23,7 +23,7 @@ const greeting = {
   username: "Usama Ahmed",
   title: "Hi all, I'm Usama ",
   subTitle: emoji(
-    "I am a passionate and results-oriented DevOps Engineer with a strong foundation in the principles of DevOps, a commitment to continuous improvement, and a dedication to fostering collaboration between development and operations teams.My journey in DevOps has been an exciting evolution. I've always been captivated by the idea of seamlessly merging development and operations to create a more efficient, agile, and collaborative software development lifecycle."
+    "I am a passionate and results-oriented Senior DevOps Engineer with a strong foundation in the principles of DevOps, a commitment to continuous improvement, and a dedication to fostering collaboration between development and operations teams.My journey in DevOps has been an exciting evolution. I've always been captivated by the idea of seamlessly merging development and operations to create a more efficient, agile, and collaborative software development lifecycle."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1uAMcmR72eHQ9Qj8MGf9wfMkCNfe0V58c/view?usp=sharing", // Set to empty to hide the button
@@ -249,7 +249,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Devop Engineer",
+      role: "Senior Devop Engineer",
       company: "Vizz Web solutions",
       companylogo: require("./assets/images/vizz.png"),
       date: "Dec 2023 – Present",
