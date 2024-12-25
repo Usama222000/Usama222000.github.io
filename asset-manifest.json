@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.b22dcd2c.js",
+    "main.js": "/static/js/main.a90422b4.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
-    "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
+    "static/js/64.3eb6a192.chunk.js": "/static/js/64.3eb6a192.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
-    "static/js/769.bda0d7b7.chunk.js": "/static/js/769.bda0d7b7.chunk.js",
+    "static/js/769.c270bc46.chunk.js": "/static/js/769.c270bc46.chunk.js",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/bahrialogo.png": "/static/media/bahrialogo.68f3c047b89ec902fff2.png",
@@ -20,14 +20,14 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.b22dcd2c.js.map": "/static/js/main.b22dcd2c.js.map",
+    "main.a90422b4.js.map": "/static/js/main.a90422b4.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
-    "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
+    "64.3eb6a192.chunk.js.map": "/static/js/64.3eb6a192.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
-    "769.bda0d7b7.chunk.js.map": "/static/js/769.bda0d7b7.chunk.js.map"
+    "769.c270bc46.chunk.js.map": "/static/js/769.c270bc46.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.b22dcd2c.js"
+    "static/js/main.a90422b4.js"
   ]
 }
