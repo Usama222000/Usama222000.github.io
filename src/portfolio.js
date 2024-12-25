@@ -26,7 +26,7 @@ const greeting = {
     "I am a passionate and results-oriented DevOps Engineer with a strong foundation in the principles of DevOps, a commitment to continuous improvement, and a dedication to fostering collaboration between development and operations teams.My journey in DevOps has been an exciting evolution. I've always been captivated by the idea of seamlessly merging development and operations to create a more efficient, agile, and collaborative software development lifecycle."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1TjtGsCSdj8NpEOYvjAzEIvmzcGOgLV8Q/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1uAMcmR72eHQ9Qj8MGf9wfMkCNfe0V58c/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -211,6 +211,25 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Junior Devops Engineer",
+      company: "Terabit IT",
+      companylogo: require("./assets/images/eurus.png"),
+      date: "Nov 2020 – AUG 2022",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      descBullets: [
+        "Assisted in the development and maintenance of CI/CD pipelines to automate the software delivery process,",  
+        "Collaborated with development and operations teams to enhance system reliability and efficiency,",  
+        "Supported the deployment and management of applications on cloud platforms, such as AWS and Azure,",  
+        "Participated in infrastructure provisioning and management using Infrastructure as Code (IaC) tools like Terraform and CloudFormation,",  
+        "Monitored system performance and troubleshot issues to ensure optimal operations,",  
+        "Helped with configuration management and version control using tools like Git,",  
+        "Contributed to documentation and knowledge sharing to promote best practices within the team,",  
+        "Learned and implemented security best practices in all aspects of system and application management,",  
+        "Stayed updated with the latest DevOps tools and technologies, contributing ideas for continuous improvement."  
+
+      ]
+    },
     {
       role: "Devops Engineer",
       company: "Eurus Technolgies",
