@@ -217,13 +217,13 @@ const workExperiences = {
       companylogo: require("./assets/images/contoursoftware_logo.jpg"),
       date: "Dec 2023 – Present",
       descBullets: [
-          "Attend Meetings with Offshore Clients:" "Collaborate with international clients to gather requirements, provide updates, and discuss project progress.",
-          "Handle Deployments:" "Manage and oversee the deployment of applications and infrastructure, ensuring smooth and timely execution.",
-          "Design Infrastructure:" "Architect and design scalable, secure, and cost-efficient cloud and on-premise infrastructures.",
-          "Design Deployment Processes:" "Develop and optimize deployment processes to ensure automation, consistency, and reliability.",
-          "Collaboration with Cross-functional Teams:" "Work closely with development, operations, and support teams to ensure seamless integration and deployment.",
-          "Monitor and Troubleshoot:" "Keep track of deployed systems and applications to quickly identify and resolve any issues or performance bottlenecks.",
-          "Cost Optimization:" "Focus on reducing costs while maintaining performance and reliability of deployed systems."
+          "Attend Meetings with Offshore Clients: Collaborate with international clients to gather requirements, provide updates, and discuss project progress.",
+          "Handle Deployments: Manage and oversee the deployment of applications and infrastructure, ensuring smooth and timely execution.",
+          "Design Infrastructure: Architect and design scalable, secure, and cost-efficient cloud and on-premise infrastructures.",
+          "Design Deployment Processes: Develop and optimize deployment processes to ensure automation, consistency, and reliability.",
+          "Collaboration with Cross-functional Teams: Work closely with development, operations, and support teams to ensure seamless integration and deployment.",
+          "Monitor and Troubleshoot: Keep track of deployed systems and applications to quickly identify and resolve any issues or performance bottlenecks.",
+          "Cost Optimization: Focus on reducing costs while maintaining performance and reliability of deployed systems."
       ]
     },
     {
