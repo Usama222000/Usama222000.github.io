@@ -212,22 +212,34 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Junior Devops Engineer",
-      company: "Terabit IT",
-      companylogo: require("./assets/images/terabit.png"),
-      date: "Nov 2020 – AUG 2022",
-      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Devop Engineer",
+      company: "Contour Softwares",
+      companylogo: require("./assets/images/contoursoftware_logo.jpg"),
+      date: "Dec 2023 – Present",
       descBullets: [
-        "Assisted in the development and maintenance of CI/CD pipelines to automate the software delivery process,",  
-        "Collaborated with development and operations teams to enhance system reliability and efficiency,",  
-        "Supported the deployment and management of applications on cloud platforms, such as AWS and Azure,",  
-        "Participated in infrastructure provisioning and management using Infrastructure as Code (IaC) tools like Terraform and CloudFormation,",  
-        "Monitored system performance and troubleshot issues to ensure optimal operations,",  
-        "Helped with configuration management and version control using tools like Git,",  
-        "Contributed to documentation and knowledge sharing to promote best practices within the team,",  
-        "Learned and implemented security best practices in all aspects of system and application management,",  
-        "Stayed updated with the latest DevOps tools and technologies, contributing ideas for continuous improvement."  
-
+          "Attend Meetings with Offshore Clients": "Collaborate with international clients to gather requirements, provide updates, and discuss project progress.",
+          "Handle Deployments": "Manage and oversee the deployment of applications and infrastructure, ensuring smooth and timely execution.",
+          "Design Infrastructure": "Architect and design scalable, secure, and cost-efficient cloud and on-premise infrastructures.",
+          "Design Deployment Processes": "Develop and optimize deployment processes to ensure automation, consistency, and reliability.",
+          "Collaboration with Cross-functional Teams": "Work closely with development, operations, and support teams to ensure seamless integration and deployment.",
+          "Monitor and Troubleshoot": "Keep track of deployed systems and applications to quickly identify and resolve any issues or performance bottlenecks.",
+          "Cost Optimization": "Focus on reducing costs while maintaining performance and reliability of deployed systems."
+      ]
+    },
+    {
+      role: "Senior Devop Engineer",
+      company: "Vizz Web solutions",
+      companylogo: require("./assets/images/vizz.png"),
+      date: "Dec 2023 – Present",
+      descBullets: [
+        "Maintaining production grade servers on contabo provider.",
+        "Collaborating with developers to troubleshoot real-time issues.",
+        "Maintaining monitoring production grade EC2 servers on AWS.",
+        "Creating solutions to optimize infrastructure cost.",
+        "Creating CI/CD pipelines for automatic deployment of multiple applications.",
+        "Dockerizing the application code and deploying those applications on container orchestration tools such as ECS and EKS.",
+        "Deploying the complex infrastructure through Terraform, making the code dynamic enough so that it can be used for different use cases.",
+        "Attending meetings with the clients, and providing them with the solutions for their problem statement."
       ]
     },
     {
@@ -249,21 +261,27 @@ const workExperiences = {
       ]
     },
     {
-      role: "Senior Devop Engineer",
-      company: "Vizz Web solutions",
-      companylogo: require("./assets/images/vizz.png"),
-      date: "Dec 2023 – Present",
+      role: "Junior Devops Engineer",
+      company: "Terabit IT",
+      companylogo: require("./assets/images/terabit.png"),
+      date: "Nov 2020 – AUG 2022",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Maintaining production grade servers on contabo provider.",
-        "Collaborating with developers to troubleshoot real-time issues.",
-        "Maintaining monitoring production grade EC2 servers on AWS.",
-        "Creating solutions to optimize infrastructure cost.",
-        "Creating CI/CD pipelines for automatic deployment of multiple applications.",
-        "Dockerizing the application code and deploying those applications on container orchestration tools such as ECS and EKS.",
-        "Deploying the complex infrastructure through Terraform, making the code dynamic enough so that it can be used for different use cases.",
-        "Attending meetings with the clients, and providing them with the solutions for their problem statement."
+        "Assisted in the development and maintenance of CI/CD pipelines to automate the software delivery process,",  
+        "Collaborated with development and operations teams to enhance system reliability and efficiency,",  
+        "Supported the deployment and management of applications on cloud platforms, such as AWS and Azure,",  
+        "Participated in infrastructure provisioning and management using Infrastructure as Code (IaC) tools like Terraform and CloudFormation,",  
+        "Monitored system performance and troubleshot issues to ensure optimal operations,",  
+        "Helped with configuration management and version control using tools like Git,",  
+        "Contributed to documentation and knowledge sharing to promote best practices within the team,",  
+        "Learned and implemented security best practices in all aspects of system and application management,",  
+        "Stayed updated with the latest DevOps tools and technologies, contributing ideas for continuous improvement."  
+
       ]
     }
+
+
+ 
   ]
 };
 
