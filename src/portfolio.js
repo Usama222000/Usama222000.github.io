@@ -215,7 +215,7 @@ const workExperiences = {
       role: "Senior Devop Engineer",
       company: "Contour Softwares",
       companylogo: require("./assets/images/contoursoftware_logo.jpg"),
-      date: "jan 2025 – Present",
+      date: "Jan 2025 – Present",
       descBullets: [
           "Attend Meetings with Offshore Clients: Collaborate with international clients to gather requirements, provide updates, and discuss project progress.",
           "Handle Deployments: Manage and oversee the deployment of applications and infrastructure, ensuring smooth and timely execution.",
