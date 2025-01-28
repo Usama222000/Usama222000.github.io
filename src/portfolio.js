@@ -215,7 +215,7 @@ const workExperiences = {
       role: "Senior Devop Engineer",
       company: "Contour Softwares",
       companylogo: require("./assets/images/contoursoftware_logo.jpg"),
-      date: "Dec 2023 – Present",
+      date: "jan 2025 – Present",
       descBullets: [
           "Attend Meetings with Offshore Clients: Collaborate with international clients to gather requirements, provide updates, and discuss project progress.",
           "Handle Deployments: Manage and oversee the deployment of applications and infrastructure, ensuring smooth and timely execution.",
@@ -230,7 +230,7 @@ const workExperiences = {
       role: "Senior Devop Engineer",
       company: "Vizz Web solutions",
       companylogo: require("./assets/images/vizz.png"),
-      date: "Dec 2023 – Present",
+      date: "Dec 2023 – Dec 2024",
       descBullets: [
         "Maintaining production grade servers on contabo provider.",
         "Collaborating with developers to troubleshoot real-time issues.",
